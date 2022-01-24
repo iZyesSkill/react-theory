@@ -9,8 +9,10 @@ const divStyle = {
 
   return (
     <div className="App" style={divStyle}>
-      <h1 style={{color: 'red', fontSize: '20px'}}>Hello world</h1>
-      <Car name={'Audi'} year={2019}/>
+      <h1 style={{fontSize: '20px'}}>Hello world</h1>
+      <Car name={'Audi'} year={2019}>
+        <p>Model: <strong style={{color: 'red'}}>A6</strong></p>
+      </Car>
       <Car name={'Mazda'} year={2018}/>
       <Car name={'Opel'} year={2017}/>
     </div>

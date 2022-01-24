@@ -12,6 +12,7 @@ const Car = (cars) => {
             <p>Number: <strong>{ Math.round(Math.random() * 100) }</strong></p> */}
 
             <p>Car name: <strong>{cars.name}</strong></p>
+            {cars.children}
             <p>Car year: <strong>{cars.year}</strong></p>
         </div>
     )
