@@ -6,7 +6,11 @@
 
 const Car = () => {
     return (
-        <div>This is car component</div>
+        <div>
+            <p>This is car component</p>
+            <p>{ 1 + 1 }</p>
+            <p>Number: <strong>{ Math.round(Math.random() * 100) }</strong></p>
+        </div>
     )
 }
     

@@ -11,6 +11,7 @@ const divStyle = {
     <div className="App" style={divStyle}>
       <h1 style={{color: 'red', fontSize: '20px'}}>Hello world</h1>
       <Car/>
+      <Car/>
     </div>
   );
 }
