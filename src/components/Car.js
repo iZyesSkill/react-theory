@@ -4,12 +4,15 @@
 //     )
 // }
 
-const Car = () => {
+const Car = (cars) => {
     return (
         <div>
-            <p>This is car component</p>
+            {/* <p>This is car component</p>
             <p>{ 1 + 1 }</p>
-            <p>Number: <strong>{ Math.round(Math.random() * 100) }</strong></p>
+            <p>Number: <strong>{ Math.round(Math.random() * 100) }</strong></p> */}
+
+            <p>Car name: <strong>{cars.name}</strong></p>
+            <p>Car year: <strong>{cars.year}</strong></p>
         </div>
     )
 }
